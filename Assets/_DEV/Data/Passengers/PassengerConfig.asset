@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a131d13cfc7937c4090d13c65d6bb452, type: 3}
+  m_Name: PassengerConfig
+  m_EditorClassIdentifier: 
+  passengerPrefab: {fileID: 794715656136951652, guid: 38d88fd988a6c884cb4c2fdc015a3931, type: 3}
+  firstState: 2
+  passengerCount: 6
+  moveEase: 1
+  rotateEaseSeconds: 0.2
+  walkSpeed: 5
+  runSpeed: 6
+  suitcasePrefab: {fileID: 8313354491938466767, guid: 7860ca797003ce84c875faebe6d64c27, type: 3}
+  pricePerSuitcase: 50
+  maxSuitcaseCount: 3
+  minSuitcaseCount: 1
+  suitcaseOffsetY: 0.3
